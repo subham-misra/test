@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*.................nav bar..............*/
+.navbar
+{
+    height: 93px;
+}
+.navbar .logo svg{
+    
+    height: 33px;
+    padding: 5px ;
+    color: #9155A7;
+}.navbar .navbar-brand
+{
+    color: #9155A7;
+    font-size: 32px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 200;
+    /*position: absolute;
+    top: 19%;*/
+}.navbar .navbar-brand span
+{
+color: #0DB26B;
+
+}.navbar .text p{
+    color: rgb(173, 164, 164);
+    padding: 0%;
+    margin: 0%;
+   /* position: absolute;
+    top: 25%;*/
+}
+/*..................... body-1...........................*/
+.body-1 .slider img{
+    height: 600px;
+}
+.body-1 .slider .carousel-caption{
+    background-color: aqua;
+}
+.body-1 .slider .box{
+    background-color: blueviolet;
+    height: 100px;
+}
+.body-1 .slider .box .item{
+    margin-left: 23%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.body-1 .slider .box .item h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.body-1 .slider .box .item button{
+    background: rgb(67, 4, 126);
+    border: none;
+    color: white;
+    /*padding: 0px 25px;*/
+    margin-left: 28px;
+}
+
+/*................................ body-2.............................*/
+.body-2 .grid{
+ display: grid;
+ grid-template-columns: repeat(3,400px);
+}
